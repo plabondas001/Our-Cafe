@@ -90,6 +90,7 @@ ul a {
 .our-story-container {
   background-color: #fbf6ef;
   padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .story-img {
@@ -117,4 +118,58 @@ ul a {
   cursor: pointer;
   background-color: #e9b44c;
   font-weight: bold;
+}
+
+/* picks section */
+.picks-container {
+  background-color: #f1e7d8;
+  padding-top: 80px;
+}
+
+.pic-text {
+  text-align: center;
+}
+
+.pic-text h5 {
+  color: #dcaa48;
+  font-size: 1rem;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  margin-bottom: 10px;
+}
+
+.pick-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.box {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  text-align: center;
+  padding: 35px 25px;
+  border-radius: 10px;
+  gap: 10px;
+  margin: 50px 0px;
+}
+
+.pic-img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.box h3 {
+  font-size: 2rem;
+}
+
+.box span {
+  font-weight: bold;
+  color: #edc36e;
 }

@@ -225,3 +225,49 @@ ul a {
 .hours-table tr:nth-child(even) {
   background-color: #faf7f2;
 }
+
+.table-img {
+  background-image: url("./img/footer-img.avif");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.first-div {
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 100%;
+}
+
+.first-content {
+  display: flex;
+  justify-content: right;
+  padding: 35px;
+}
+
+.first-content p {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.second-content {
+  position: absolute;
+  bottom: 35px;
+  left: 20px;
+  border-radius: 15px;
+  display: flex;
+  padding: 35px;
+  width: 350px;
+  background-color: white;
+}
